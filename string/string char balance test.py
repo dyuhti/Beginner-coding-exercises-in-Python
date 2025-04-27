@@ -1,0 +1,6 @@
+s1 = str(input("Enter a string"))
+s2 = str(input("Enter a string"))
+str1 = set(s1)
+str2 = set(s2)
+is_subset = str1.issubset(str2)
+print(is_subset)
